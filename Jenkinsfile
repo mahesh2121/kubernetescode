@@ -8,7 +8,7 @@ node {
     }
 
     stage('Build image') {
-  
+        sh 'whoami'
        app = docker.build("raj80dockerid/test")
     }
 
